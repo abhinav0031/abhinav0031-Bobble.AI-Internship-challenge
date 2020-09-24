@@ -25,7 +25,7 @@ export const Register = (props) => {
   const onChange = (e) => setUser({ ...user, [e.target.name]: e.target.value });
   const onSubmit = (e) => {
     e.preventDefault();
-    console.log(name);
+    // console.log(name);
     register();
     emptyValues();
   };
@@ -45,7 +45,7 @@ export const Register = (props) => {
         formData,
         config
       );
-      console.log(res.data.id);
+      console.log(res.data);
       alert("User Registered");
     } catch (err) {
       alert("Error");
