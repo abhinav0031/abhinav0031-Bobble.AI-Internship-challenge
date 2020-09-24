@@ -1,0 +1,262 @@
+:root {
+  --primary-color: #42adf5;
+}
+.line {
+  box-shadow: 10px 7px 8px #676c73;
+}
+.img-container {
+  height: 80px;
+  width: 80px;
+}
+img {
+  height: 100%;
+  width: 100%;
+}
+.header {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+.container {
+  display: flex;
+}
+.facebook {
+  margin-left: 20px;
+}
+.pm-clr {
+  color: var(--primary-color);
+}
+.img-title {
+  height: 100%;
+  width: 100%;
+}
+.conditions {
+  margin-left: 40px;
+}
+.signup-form {
+  border: 1px solid grey;
+  height: 600px;
+  width: 600px;
+  margin: auto;
+  margin-top: 60px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 8px 10px #888888;
+}
+h4 {
+  text-align: center;
+  color: grey;
+}
+.form-heading {
+  text-align: center;
+  color: black;
+  margin-top: 30px;
+}
+.form-title {
+  text-align: center;
+  color: black;
+  font-size: 40px;
+  font-weight: lighter;
+  margin-top: 30px;
+}
+.form-subheading {
+  font-size: medium;
+}
+a {
+  text-decoration: none;
+  color: grey;
+}
+.division {
+  margin-top: 20px;
+  width: 500px;
+  margin-left: 40px;
+}
+.btn {
+  background-color: white;
+  border: 1px solid grey;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  color: grey;
+  margin: auto;
+}
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.separator::before,
+.separator::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #000;
+}
+.separator::before {
+  margin-right: 0.25em;
+}
+.separator::after {
+  margin-left: 0.25em;
+}
+.signupbtns {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  flex: 1;
+  justify-content: center;
+}
+
+input {
+  margin: 1.2rem 0;
+}
+form {
+  height: 500px;
+  width: 500px;
+}
+.form-text {
+  display: block;
+  margin-top: 0.3rem;
+  color: #888;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 0.4rem;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"],
+button {
+  font: inherit;
+}
+
+.form-group {
+  margin: 1.2rem 0;
+}
+
+.form-group input {
+  margin: 0.2rem 0;
+  margin-left: 40px;
+}
+
+.form-container h1,
+h2,
+h3 {
+  text-align: center;
+}
+.register-btn {
+  margin-top: 35px;
+  margin-left: 40px;
+  display: block;
+  background: #42adf5;
+  color: #333;
+  padding: 0.4rem 1.3rem;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  transition: opacity 0.2s ease-in;
+  outline: none;
+  width: 100%;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.btn-container {
+  width: 500px;
+}
+
+.btn-primary {
+  background: #42adf5;
+  color: #fff;
+}
+@media (max-width: 600px) {
+  .signup-form {
+    border: 1px solid grey;
+    height: 60%;
+    width: 85%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 60px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 8px 10px #888888;
+  }
+
+  .form-container {
+    height: 80%;
+    width: 100%;
+  }
+  .btn-container {
+    width: 60%;
+  }
+  .form-group {
+    width: 60%;
+    margin-right: 20px;
+  }
+  .conditions {
+    width: 60%;
+  }
+  .division {
+    width: 75%;
+  }
+  .container {
+    width: 70%;
+  }
+}
+@media (max-width: 380px) {
+  .form-container {
+    height: 100vh;
+    width: 100vh;
+  }
+  .signup-form {
+    border: 1px solid grey;
+    height: 60%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 60px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 8px 10px #888888;
+  }
+  .form-container {
+    height: 100%;
+    width: 100%;
+  }
+  .btn-container {
+    width: 40%;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="date"],
+  select,
+  textarea {
+    display: block;
+    width: 70%;
+    padding: 0.4rem;
+    font-size: 1.2rem;
+    border: 1px solid #ccc;
+  }
+  .form-group {
+    width: 55%;
+    margin-right: 20px;
+  }
+  .division {
+    width: 75%;
+  }
+  .conditions {
+    width: 40%;
+  }
+  .container {
+    width: 87%;
+  }
+}
